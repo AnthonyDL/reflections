@@ -1,0 +1,6 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+When you initialize a repository, you're creating the .git file with it, which is going to allow it to interact with GitBash and GitHub (I think).  This allows us to interact with the repository as we would with any git file, creating commits, checkouts, diffs, logs, etc.
+
+
+

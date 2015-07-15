@@ -1,0 +1,20 @@
+How did viewing a diff between two versions of a file help me see the bug that was introduced?
+
+By comparing the game_new.js with game_old.js with the cmd FC tool, I was able to quickly find the differences between the two versions of the game and thus debug the issue. In future applications, I should keep this in mind especially when writing code. Perhaps it will be smart to have different versions of the same code/file, especially when I am introducing big changes, in case I need to do a compare to see what went wrong, if anything.
+
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+
+The pros of manually choosing when to create commits are that we can create commits for reasonable amounts of work done, say multiple typos being fixed, or an hour's worth of work on one part of the code.  This would be better than automatically being saved, since those commits may sometimes not make sense or be nonintuitive.   The cons including having to remember when to commit and making sure you do it, else it'll all be to waste.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Git is made for files that draw upon one another, e.g. html and css, since the multiple files influence each other, it makes more sense for them to be saved together in commits.  Google Docs are less likely to involve files that are interconnected, so it makes more sense to save files individually.
+
+How can you use the commands git log and git diff to view the history of files?
+
+git log can get us a list of all the changes made to a file, while git diff will allow us to see specifically what has changed between the versions of the file.
+
+How might using version control make you more confident to make changes that could break something?
+
+By using version control and making periodic commits, you are insured in the sense that in case there is a breaking bug, you can always revert back to an older version before the bug was introduced.
