@@ -2,5 +2,7 @@ What happens when you initialize a repository? Why do you need to do it?
 
 When you initialize a repository, you're creating the .git file with it, which is going to allow it to interact with GitBash and GitHub (I think).  This allows us to interact with the repository as we would with any git file, creating commits, checkouts, diffs, logs, etc.
 
+How is the staging area different from the working directory and the repository? What do you think it offers?
 
+The staging area is different from the working directory and repository in the sense that we choose which files to put into the staging area, which will eventually be committed.  The repository is the overall file, with all commits, we are working with, while the working directory is the folder we're working in.  The staging area is different in that any files we want to save and commit together, we will send to here first, where we can easily check on it before making the commit.
 
